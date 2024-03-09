@@ -62,7 +62,7 @@ Doctor summary (to see all details, run flutter doctor -v):
 
 El primero de ellos es tener Visual Studio Code instalado para programar y arrancar flutter para instalarlo accedemos al [enlace de descarga](https://code.visualstudio.com/download) y seleccionamos el sistema operativo en el que queremos que se instale. Una vez instalado, debemos abrirlo e instalar el plugin de Flutter "Flutter Dart Code".
 
-Lo segundo que debemos de tener es Android Studio, un requisito que necesita Flutter para funcionar es una SDK de Android Studio, lo primero es acceder al [enlace de descarga](https://developer.android.com/studio?hl=es-419) y descargar la última versión de Android Studio. Cuando se instale y accedamos al menú principal de la aplicación, iremos a la esquina superior derecha, donde aparecerán 3 puntos verticales, los seleccionamos y seleccionamos <b>SDK Manager</b> seleccionamos <b>SDK Tools</b> y tenemos que instalar:
+Lo segundo que debemos de tener es Android Studio, un requisito que necesita Flutter para funcionar es una SDK de Android Studio, lo primero es acceder al [enlace de descarga](https://developer.android.com/studio?hl=es-419) y descargar la última versión de Android Studio. Cuando se instale y accedamos al menú principal de la aplicación, iremos a la esquina superior derecha, donde aparecerán 3 puntos verticales, que seleccionaremos y elegiremos <b>SDK Manager</b>, concretamente <b>SDK Tools</b> y tenemos que instalar:
 
 <ul>
     <li>Android SDK Command-line Tools (latest)</li>
