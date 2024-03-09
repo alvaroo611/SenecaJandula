@@ -28,7 +28,7 @@ Para comprobar que flutter se ha instalado aplicamos ```Windows``` + ```R``` y e
 flutter --version
 ```
 
-Si aparece que el comando no se encuentra hay un error en la configuración de las variables de entorno, si no mostrará un cuadro de texto y la extensión, si está instalado ejecutaremos:
+Si aparece que el comando no se encuentra hay un error en la configuración de las variables de entorno, si no mostrará un cuadro de texto y la extensión, si está instalado ejecutaremos el siguiente comando que nos ayudará a validar todos los componentes del entorno de desarrollo de Flutter para Windows:
 
 ```
 flutter doctor
