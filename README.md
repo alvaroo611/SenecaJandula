@@ -34,7 +34,31 @@ Si aparece que el comando no se encuentra hay un error en la configuración de l
 flutter doctor
 ```
 
-Al principio tardará bastante en ejecutarse pero nos mostrará los requisitos para ejecutarlo, el primero de ellos es tener Visual Studio Code instalado para programar y arrancar flutter para instalarlo accedemos al [enlace de descarga](https://code.visualstudio.com/download) y seleccionamos el sistema operativo en el que queremos que se instale
+Al principio tardará bastante en ejecutarse pero nos mostrará los requisitos para ejecutarlo. Un ejemplo de ello es el siguiente:
+
+*Tabspace*Doctor summary (to see all details, run flutter doctor -v):
+*Tabspace*[√] Flutter (Channel stable, 3.19.3, on Microsoft Windows [Versi¢n 10.0.22631.3155], locale es-ES)
+*Tabspace*[√] Windows Version (Installed version of Windows is version 10 or higher)
+*Tabspace*[X] Android toolchain - develop for Android devices
+*Tabspace*    X Unable to locate Android SDK.
+*Tabspace*      Install Android Studio from: https://developer.android.com/studio/index.html
+*Tabspace*      On first launch it will assist you in installing the Android SDK components.
+*Tabspace*      (or visit https://flutter.dev/docs/get-started/install/windows#android-setup for detailed instructions).
+*Tabspace*      If the Android SDK has been installed to a custom location, please use
+*Tabspace*      `flutter config --android-sdk` to update to that location.
+
+*Tabspace*[√] Chrome - develop for the web
+*Tabspace*[!] Visual Studio - develop Windows apps (Visual Studio Build Tools 2019 16.11.32)
+*Tabspace*    X The current Visual Studio installation is incomplete.
+*Tabspace*      Please use Visual Studio Installer to complete the installation or reinstall Visual Studio.
+*Tabspace*[!] Android Studio (not installed)
+*Tabspace*[√] VS Code (version 1.86.2)
+*Tabspace*[√] Connected device (3 available)
+*Tabspace*[√] Network resources
+
+*Tabspace*! Doctor found issues in 3 categories.
+
+, el primero de ellos es tener Visual Studio Code instalado para programar y arrancar flutter para instalarlo accedemos al [enlace de descarga](https://code.visualstudio.com/download) y seleccionamos el sistema operativo en el que queremos que se instale
 
 Lo segundo que debemos de tener es Android Studio, un requisito que necesita flutter es una sdk de android studio que necesita flutter para funcionar, lo primero es acceder al [enlace de descarga](https://developer.android.com/studio?hl=es-419) y descargar la ultima version de android studio, cuando se instale y accedamos al menu principal en la esquina superior derecha aparecerán 3 puntos verticales los seleccionamos y seleccionamos <b>Sdk Manager</b> seleccionamos <b>SDK Tools</b> y tenemos que instalar:
 
