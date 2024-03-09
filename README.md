@@ -2,13 +2,13 @@
 
 # Descripción del proyecto
 
-ISéneca es la interfaz de usuario para gestionar las incidencias que cometen los alumnos fácilmente con una interfaz sencilla y amigable, funciona con el proyecto TimeTable que le manda los datos de alumnos, profesores y horarios que la interfaz recoge y muestra para que los profesores puedan gestionar las incidencias fácilmente, está hecho en el framework de flutter y se conecta con firebase para un loggin sencillo para que los profesores accedan fácilmente
+ISéneca es la interfaz de usuario para gestionar las incidencias que cometen los alumnos fácilmente con una interfaz sencilla y amigable, funciona con el proyecto TimeTable que le manda los datos de alumnos, profesores y horarios que la interfaz recoge y muestra para que los profesores puedan gestionar las incidencias fácilmente, está hecho en el framework de flutter y se conecta con firebase para un loggin sencillo para que los profesores accedan fácilmente.
 
 # Instalación de flutter
 
-Instalar y configurar flutter es complicado ya que se necesitan muchos componentes para que el proyecto funcione, lo primero es descargar el [sdk de flutter](https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.19.3-stable.zip) (actualmente es la versión 3.19.3). Una vez que se haya descargado creamos una carpeta <b>src</b> a la altura de C:\ o si es un ordenador compartido a la altura del usuario <b>NUNCA</b> a la altura de los archivos del programa ya que es posible que aparezcan errores de compilación a la hora de ejecutar un proyecto de flutter, cuando hayamos creado la carpeta descomprimimos el zip de flutter dentro de src
+Instalar y configurar flutter es complicado ya que se necesitan muchos componentes para que el proyecto funcione, lo primero es descargar el [sdk de flutter](https://storage.googleapis.com/flutter_infra_release/releases/stable/windows/flutter_windows_3.19.3-stable.zip) (actualmente es la versión 3.19.3). Una vez que se haya descargado creamos una carpeta <b>src</b> a la altura de C:\ o si es un ordenador compartido a la altura del usuario <b>NUNCA</b> a la altura de los archivos del programa ya que es posible que aparezcan errores de compilación a la hora de ejecutar un proyecto de flutter, cuando hayamos creado la carpeta descomprimimos el zip de flutter dentro de src.
 
-Una vez que se haya descomprimido la carpeta en su sitio correspondiente tenemos que acceder a las variables de entorno colocando en el buscador de windows <b>Editar las variables de entorno de esta cuenta</b> buscamos la variable Path y seleccionamos editar, y añadimos esta expresion 
+Una vez que se haya descomprimido la carpeta en su sitio correspondiente tenemos que acceder a las variables de entorno colocando en el buscador de windows <b>Editar las variables de entorno de esta cuenta</b> buscamos la variable Path y seleccionamos editar, y añadimos esta expresion.
 
 <h3>Si la carpeta está colocada en C:\</h3>
 
@@ -60,7 +60,7 @@ Doctor summary (to see all details, run flutter doctor -v):
 ! Doctor found issues in 3 categories.
 ```
 
-El primero de ellos es tener Visual Studio Code instalado para programar y arrancar flutter para instalarlo accedemos al [enlace de descarga](https://code.visualstudio.com/download) y seleccionamos el sistema operativo en el que queremos que se instale
+El primero de ellos es tener Visual Studio Code instalado para programar y arrancar flutter para instalarlo accedemos al [enlace de descarga](https://code.visualstudio.com/download) y seleccionamos el sistema operativo en el que queremos que se instale. Una vez instalado, debemos abrirlo e instalar el plugin de Flutter "Flutter Dart Code".
 
 Lo segundo que debemos de tener es Android Studio, un requisito que necesita flutter es una sdk de android studio que necesita flutter para funcionar, lo primero es acceder al [enlace de descarga](https://developer.android.com/studio?hl=es-419) y descargar la ultima version de android studio, cuando se instale y accedamos al menu principal en la esquina superior derecha aparecerán 3 puntos verticales los seleccionamos y seleccionamos <b>Sdk Manager</b> seleccionamos <b>SDK Tools</b> y tenemos que instalar:
 
