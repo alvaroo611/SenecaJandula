@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:iseneca/providers/xml_provider.dart';
 import 'package:iseneca/service/services.dart';
+import 'package:http/http.dart' as http;
+import 'dart:io';
 
 Size size = Size.zero;
 
 class LoginScreen extends StatelessWidget {
-  const LoginScreen({super.key});
+  LoginScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -51,6 +54,18 @@ class Content extends StatefulWidget {
 }
 
 class ContentState extends State<Content> {
+  final XmlProvider _xmlProvider = XmlProvider();
+  @override
+  void initState() {
+    super.initState();
+    _loadXmlData();
+  }
+
+  void _loadXmlData() {
+    final httpClient = http.Client();
+    _xmlProvider.loadXmlDataFromFile(httpClient);
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
