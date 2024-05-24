@@ -1,6 +1,6 @@
-class AlumnoConvivencia
-{
+//Class alumno
+class AlumnoConvivencia {
   String nombre;
   String curso;
-  AlumnoConvivencia({required this.nombre,required this.curso});
+  AlumnoConvivencia({required this.nombre, required this.curso});
 }
