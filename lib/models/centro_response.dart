@@ -4,6 +4,7 @@
 
 import 'dart:convert';
 
+//Class centro response
 class CentroResponse {
   CentroResponse({
     required this.centro,
