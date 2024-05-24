@@ -1,4 +1,4 @@
-name: Iseneca
+name: IsenecaWebMain
 
 on:
   push:
@@ -8,7 +8,6 @@ on:
 jobs:
   build:
     runs-on: windows-latest
-
     steps:
     - name: Checkout
       uses: actions/checkout@v2
@@ -28,7 +27,7 @@ jobs:
     - name: Build web
       run: flutter build web
 
-   - name: Deploy
+    - name: Deploy
       uses: peaceiris/actions-gh-pages@v4
       with:
         github_token: ${{ secrets.TOKEN }}
