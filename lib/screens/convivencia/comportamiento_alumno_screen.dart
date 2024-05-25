@@ -7,7 +7,7 @@ import 'package:iseneca/providers/profesores_provider.dart';
 
 import 'package:http/http.dart' as http;
 import 'package:provider/provider.dart';
-
+//Array of student
 List<AlumnoConvivencia> studentList = [
   AlumnoConvivencia(nombre: "David Martinez", curso: "2DAM"),
   AlumnoConvivencia(nombre: "Pablo Fernandez", curso: "2DAM"),
